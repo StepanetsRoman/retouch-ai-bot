@@ -1,9 +1,9 @@
 torch>=1.12.0
 torchvision>=0.13.0
-aiogram
 gfpgan
 basicsr
 numpy
 opencv-python
 Pillow
 gradio
+aiogram
