@@ -1,0 +1,14 @@
+name: Restart Space Daily
+
+on:
+  schedule:
+    - cron: '0 */23 * * *'
+  workflow_dispatch:
+
+jobs:
+  keep_alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl ping to Hugging Face Space
+        run: |
+          curl -X POST -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}" https://huggingface.co/api/spaces/oreginals/retouch-ai-bot/restart

@@ -1,0 +1,8 @@
+aiogram
+opencv-python-headless
+Pillow
+rembg
+gfpgan
+basicsr
+realesrgan
+psd-tools
