@@ -1,8 +1,8 @@
-aiogram
-opencv-python-headless
-Pillow
-rembg
+torch>=1.12.0
+torchvision>=0.13.0
 gfpgan
 basicsr
-realesrgan
-psd-tools
+numpy
+opencv-python
+Pillow
+gradio
